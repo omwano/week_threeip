@@ -1,1 +1,13 @@
-
+.image {
+  height: 100%;
+  background-image:url(../delani_studio/assets/backgrounds/welcome_img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.container {
+  position: relative;
+  text-align: center;
+  font-size: 22px;
+}
