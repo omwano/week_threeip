@@ -9,5 +9,14 @@
 .container {
   position: relative;
   text-align: center;
-  font-size: 22px;
+  font-size: 16px;
+}
+#services {
+  height: 50%;
+  background-image: url(../delani_studio/assets/backgrounds/services_image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
 }
