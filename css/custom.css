@@ -1,22 +1,29 @@
 .image {
   height: 100%;
-  background-image:url(../delani_studio/assets/backgrounds/welcome_img.jpg);
+  background-image:url(../assets/backgrounds/welcome_img.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
-.container {
+.containerS {
   position: relative;
   text-align: center;
   font-size: 10px;
 }
 #services {
   height: 50%;
-  background-image: url(../delani_studio/assets/backgrounds/services_image.jpg);
+  background-image: url(../assets/backgrounds/services_image.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
   color: white;
+}
+#Smessage {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.portfolio {
+  max-width: 70%;
 }
