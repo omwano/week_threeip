@@ -27,3 +27,21 @@
 .portfolio {
   max-width: 70%;
 }
+.projects_heading {
+padding-left: 0%;
+padding-right: 0%;
+}
+
+.portfolio_list {
+  padding-top: 2%;
+}
+.projects_heading {
+  display: none;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  padding-top: 20%;
+  padding-right: 10%;
+  position: absolute;
+}
+
