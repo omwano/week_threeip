@@ -55,6 +55,8 @@ padding-right: 0%;
   padding-top: 20%;
   padding-right: 10%;
   border: solid;
+  text-align: center;
+  text-emphasis: bold;
   }
   .hidden-content {
     display: none;
@@ -116,14 +118,4 @@ padding-right: 0%;
   text-align: center;
   font-size: 10px;
  }
- .text {
-  text-align: center;
-  border: solid;
-  border-color: white;
-  color: white;
-  font-weight: bold;
-  padding: 15px;
- }
- .mous:hover .text {
-  display: block;
- }
+ 
