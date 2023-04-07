@@ -5,7 +5,7 @@ Delani Studio
 Omwono Hellen, A
 
 ## About this project
-This is an interactive landing page for Delani Studio that summarizes everything about the company from the services offered to listed projects undertaken. The project makes use of JQuery for better user experience and bootstrap for the appealing design.
+This is an interactive landing page for Delani Studio that summarizes everything about the company from the services offered to listed projects undertaken. The project makes use of JQuery for better user experience and bootstrap for appealing design and professional look.
 
 ## Setup and use instructions
 These instructions will help you to install a copy of the project for development and testing.
