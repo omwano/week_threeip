@@ -26,6 +26,7 @@
   padding-top: 60px;
   padding-bottom: 40px;
 }
+
 .col {
   text-align: center;
   size:100%;
@@ -55,7 +56,9 @@ padding-right: 0%;
   padding-right: 10%;
   border: solid;
   }
-
+  .hidden-content {
+    display: none;
+  }
   .contactS {
     background-image: url(../assets/backgrounds/contact_image.jpg);
     background-repeat: no-repeat;
