@@ -26,8 +26,8 @@ To use the application, open the web application in your web browser and follow 
 - Github
 
 ## How it works
-The application uses behaviour driven development approach. A user can hover over the "PORTFOLIO" icons to see the name of the project delivered. A user can click on the 'WHAT WE DO' icons to see the full description of service offered. A user can send a message to request for a service or enquire through 
-It uses javascript to analyze user input in the form. A user lands on the home page that is designed using html, css, bootstrap.
+The application uses behaviour driven development approach. A user can hover over the "PORTFOLIO" icons to see the name of the project delivered. A user can click on the 'WHAT WE DO' icons to see the full description of service offered. A user can send a message to request for a service or enquire through a form.
+The application uses javascript to analyze user input in the form. An acknowledgement message pops up once a user submits their message.
 ![alt text](delani_studio/Delani Studio.jpg)
 
 
