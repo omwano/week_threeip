@@ -14,13 +14,13 @@ $(document).ready(function () {
         });
     });
 
-    $('#dev').click(function () {
+    $('#development').click(function () {
         $('#devContent').show(function () {
-            $('#dev').hide('fast');
+            $('#development').hide('fast');
         });
     });
     $('#devContent').click(function () {
-        $('#dev').show(function () {
+        $('#development').show(function () {
             $('#devContent').hide('fast');
         });
     });
