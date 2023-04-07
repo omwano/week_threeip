@@ -50,14 +50,19 @@ padding-right: 0%;
 .projects_heading {
   display: none;
   background-color: white;
+  opacity: 0.8;
+  z-index: 1;
+  font-size: small;
   height: 100%;
   width: 100%;
   padding-top: 20%;
   padding-right: 10%;
-  border: solid;
-  text-align: center;
-  text-emphasis: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%
+  transform; translate:(-50%, -50%);
   }
+  
   .hidden-content {
     display: none;
   }
