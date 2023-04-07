@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
 
-    //what we do functionality
+    //what we do 
     $('#design').click(function () {
         $('#designContent').show(function () {
             $('#design').hide('fast');
@@ -38,12 +38,25 @@ $(document).ready(function () {
 
 
     //portfolio
+    /*
+    $(".proj1-title").hide();
+    $(".proj1").animate({
+      opacity: 1
+    });
+    $(".proj1").hover(function(){
+      $(this).stop().animate({opacity:.4},200);
+      $('.proj1-title').fadeIn();
+
+  }, function() {
+      $(this).stop().animate({opacity:1},500)
+      $('.proj1-title').fadeOut();
+  });
+    */
     $('#proj1').mouseenter(function () {
         $('.project_heading').filter('#proj1-title').show("slow");
     }).mouseleave(function () {
         $('#proj1-title').hide("slow");
     });
-
 
     $('#proj2').mouseenter(function () {
         $('.project_heading').filter('#proj2-title').show("slow");
