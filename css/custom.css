@@ -36,11 +36,12 @@
   max-height: 100%;
 }
 .portfolio {
-  max-width: 100%;
-}
-.projects_heading {
-padding-left: 0%;
-padding-right: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16%;
+  margin-right: 14%;
 }
 
 .portfolio_list {
@@ -54,17 +55,15 @@ padding-right: 0%;
 .projects_heading {
   display: none;
   background-color: white;
-  opacity: 0.8;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.1;
   z-index: 1;
-  font-size: small;
   height: 100%;
   width: 100%;
-  padding-top: 20%;
-  padding-right: 10%;
   position: absolute;
-  top: 50%;
-  left: 50%
-  transform; translate:(-50%, -50%);
+  top:0%;
+  transition:0.2s;
   }
   
   .hidden-content {
