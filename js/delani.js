@@ -37,66 +37,59 @@ $(document).ready(function () {
     });
 
 
-    //portfolio
-    /*
-    $(".proj1-title").hide();
-    $(".proj1").animate({
-      opacity: 1
+//portfolio
+$(document).ready(function(){
+$("#proj1").mouseover(function(){
+    $("#proj1-title").show();
+    }).mouseout(function(){
+      $("#proj1-title").hide();
     });
-    $(".proj1").hover(function(){
-      $(this).stop().animate({opacity:.4},200);
-      $('.proj1-title').fadeIn();
-
-  }, function() {
-      $(this).stop().animate({opacity:1},500)
-      $('.proj1-title').fadeOut();
   });
-    */
-    $('#proj1').mouseenter(function () {
-        $('.project_heading').filter('#proj1-title').show("slow");
-    }).mouseleave(function () {
-        $('#proj1-title').hide("slow");
+
+$(document).ready(function(){
+    $("#proj2").mouseover(function(){
+      $("#proj2-title").show();
+    }).mouseout(function(){
+      $("#proj2-title").hide();
     });
+  });
 
-    $('#proj2').mouseenter(function () {
-        $('.project_heading').filter('#proj2-title').show("slow");
-    }).mouseleave(function () {
-        $('#proj2-title').hide("slow");
+$(document).ready(function(){
+    $("#proj3").mouseover(function(){
+      $("#proj3-title").show();
+    }).mouseout(function(){
+      $("#proj3-title").hide();
     });
+  });
 
-    $('#proj3').mouseenter(function () {
-        $('.project_heading').filter('#proj3-title').show("slow");
-    }).mouseleave(function () {
-        $('#proj3-title').hide("slow");
+$(document).ready(function(){
+    $("#proj4").mouseover(function(){
+      $("#proj4-title").show();
+    }).mouseout(function(){
+    $("#proj4-title").hide();
     });
-
-
-    $('#proj4').mouseenter(function () {
-        $('.project_heading').filter('#proj4-title').show("slow");
-    }).mouseleave(function () {
-        $('#proj4-title').hide("slow");
-    });
-
+  });
+    
     $('#proj5').mouseenter(function () {
-        $('.project_heading').filter('#proj5-title').show("slow");
+    $('.project_heading').filter('#proj5-title').show("slow");
     }).mouseleave(function () {
         $('#proj5-title').hide("slow");
     });
 
 
     $('#proj6').mouseenter(function () {
-        $('.project_heading').filter('#proj6-title').show("slow");
+    $('.project_heading').filter('#proj6-title').show("slow");
     }).mouseleave(function () {
-        $('#proj6-title').hide("slow");
+    $('#proj6-title').hide("slow");
     });
 
     $('#proj7').mouseenter(function () {
-        $('.project_heading').filter('#proj7-title').show("slow");
+    $('.project_heading').filter('#proj7-title').show("slow");
     }).mouseleave(function () {
         $('#proj7-title').hide("slow");
     });
     $('#proj8').mouseenter(function () {
-        $('.project_heading').filter('#proj8-title').show("slow");
+    $('.project_heading').filter('#proj8-title').show("slow");
     }).mouseleave(function () {
         $('#proj8-title').hide("slow");
     });

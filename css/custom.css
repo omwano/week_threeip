@@ -31,6 +31,10 @@
   text-align: center;
   size:100%;
 }
+.col-md-3 img{
+  max-width: 100%;
+  max-height: 100%;
+}
 .portfolio {
   max-width: 100%;
 }
@@ -42,7 +46,7 @@ padding-right: 0%;
 .portfolio_list {
   padding-top: 2%;
 }
-.col1 {
+.col{
   display: inline-block;
   position: relative;
 }
@@ -79,7 +83,7 @@ padding-right: 0%;
 
  .contactHeader {
   margin-top: 30px;
-  padding: 20px;
+  padding: 10px;
  }
  ::placeholder {
   color: darkgray;
@@ -109,7 +113,16 @@ padding-right: 0%;
   border: slategray;
   float:right;
  }
- 
+
+ .form-control::-webkit-input-placeholder { 
+  color: white; 
+ }
+  button{
+  margin-left: 20%;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+ }
+
  .social_sites {
   margin-top: 20px;
   width: 70%;
